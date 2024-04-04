@@ -45,3 +45,25 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+/* Media Queries */
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+    .dark-blue {
+        font-size: 1.5em; /* Adjust font size for mobile */
+    }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .dark-blue {
+        font-size: 2em; /* Adjust font size for tablets */
+    }
+}
+
+/* For desktops: */
+@media only screen and (min-width: 901px) {
+    .dark-blue {
+        font-size: 2.5em; /* Adjust font size for desktops */
+    }
+}
